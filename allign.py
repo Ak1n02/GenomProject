@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
     # Check if a filename is provided as a command-line argument
     if len(sys.argv) < 2:
-        print("Usage: allign.py <filename.seq>")
+        print("Usage:python allign.py <filename.seq>")
         sys.exit(1)
 
     filename = sys.argv[1]  # File containing sequences
